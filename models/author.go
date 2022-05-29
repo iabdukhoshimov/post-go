@@ -25,7 +25,7 @@ type ArticleListItem struct {
 
 type ArticleCreateModel struct {
 	Content      //promoted fields
-	AuthorID int `json:"author_id`
+	AuthorID int `json:"author_id"`
 }
 
 type ArticleUpdateModel struct {
